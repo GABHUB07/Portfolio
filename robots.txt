@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://gabhub07.github.io/sitemap.xml
+
+Sitemap: https://gabhub07.github.io/Portfolio/sitemap.xml
