@@ -3,7 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gabriel V. Israel - Web & System Developer</title>
+    
+    <!-- Primary Meta Tags -->
+    <title>Gabriel V. Israel - Web & System Developer | IoT & Full-Stack Solutions</title>
+    <meta name="title" content="Gabriel V. Israel - Web & System Developer | IoT & Full-Stack Solutions">
+    <meta name="description" content="Full-stack web and system developer specializing in IoT integration, real-time data systems, Arduino projects, PHP, PostgreSQL, and modern web development. View my portfolio of innovative projects.">
+    <meta name="keywords" content="web developer, system developer, IoT developer, Arduino, PHP developer, PostgreSQL, full-stack developer, earthquake monitoring, weather API, landing pages, Gabriel Israel, GABHUB07">
+    <meta name="author" content="Gabriel V. Israel">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://gabhub07.github.io/">
+    <meta property="og:title" content="Gabriel V. Israel - Web & System Developer">
+    <meta property="og:description" content="Full-stack developer specializing in IoT, web systems, and database solutions. Expert in Arduino, PHP, PostgreSQL, and modern web technologies.">
+    <meta property="og:image" content="https://gabhub07.github.io/me.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://gabhub07.github.io/">
+    <meta property="twitter:title" content="Gabriel V. Israel - Web & System Developer">
+    <meta property="twitter:description" content="Full-stack developer specializing in IoT, web systems, and database solutions.">
+    <meta property="twitter:image" content="https://gabhub07.github.io/me.jpg">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://gabhub07.github.io/">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Gabriel V. Israel",
+        "jobTitle": "Web & System Developer",
+        "url": "https://gabhub07.github.io/",
+        "sameAs": [
+            "https://github.com/GABHUB07"
+        ],
+        "email": "learsi.gabriel07@gmail.com",
+        "description": "Full-stack web and system developer specializing in IoT integration, real-time data systems, and modern web development",
+        "knowsAbout": ["Web Development", "IoT", "Arduino", "PHP", "PostgreSQL", "System Development", "Real-time Systems"],
+        "alumniOf": {
+            "@type": "Organization",
+            "name": "Developer"
+        }
+    }
+    </script>
+
     <style>
         * {
             margin: 0;
@@ -491,7 +542,7 @@
 <body>
     <div class="cursor"></div>
 
-    <nav>
+    <nav role="navigation" aria-label="Main navigation">
         <div class="logo">GVI</div>
         <ul class="nav-links">
             <li><a href="#home">Home</a></li>
@@ -501,169 +552,170 @@
         </ul>
     </nav>
 
-    <section class="hero" id="home">
-        <div class="hero-content">
-            <div class="profile-image-container">
-                <img src="me.jpg" alt="Gabriel V. Israel" class="profile-image" id="profileImage">
-            </div>
-            <div class="hero-tag">WEB & SYSTEM DEVELOPER</div>
-            <h1>Gabriel V. Israel</h1>
-            <h2>Building Innovative Systems & Web Solutions</h2>
-            <p>Specialized in Web and System development, IoT integration, and real-time data systems. Creating scalable solutions from evaluation platforms to Arduino-powered monitoring systems.</p>
-            <div class="cta-buttons">
-                <a href="#projects" class="cta-button">View Projects</a>
-                <a href="#contact" class="cta-button secondary">Get In Touch</a>
-            </div>
-        </div>
-    </section>
-
-    <section class="section" id="projects">
-        <h2 class="section-title">Featured Projects</h2>
-        <p class="section-subtitle">Real-world solutions combining web development, databases, and hardware integration</p>
-        
-        <div class="projects-grid">
-            <div class="project-card">
-
-                <h3>Evaluation System</h3>
-                <p>Comprehensive evaluation platform with robust database management. Features include real-time data processing, user authentication, reporting dashboards, and automated analytics for streamlined performance tracking.</p>
-                <div class="tech-tags">
-                    <span class="tech-tag">PHP</span>
-                    <span class="tech-tag">PostgreSQL</span>
-                    <span class="tech-tag">Dashboard</span>
-                    <span class="tech-tag">Analytics</span>
-                    <span class="tech-tag">Docker</span>
-                    <span class="tech-tag">Render Hosting</span>
-                    <span class="tech-tag">GitHub</span>
-                    <span class="tech-tag">API</span>
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <div class="profile-image-container">
+                    <img src="me.jpg" alt="Gabriel V. Israel - Web and System Developer" class="profile-image" id="profileImage">
+                </div>
+                <div class="hero-tag">WEB & SYSTEM DEVELOPER</div>
+                <h1>Gabriel V. Israel</h1>
+                <h2>Building Innovative Systems & Web Solutions</h2>
+                <p>Specialized in Web and System development, IoT integration, and real-time data systems. Creating scalable solutions from evaluation platforms to Arduino-powered monitoring systems.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="cta-button" aria-label="View my projects">View Projects</a>
+                    <a href="#contact" class="cta-button secondary" aria-label="Contact me">Get In Touch</a>
                 </div>
             </div>
+        </section>
 
-            <div class="project-card">
-                <h3>Earthquake Detector System</h3>
-                <p>IoT-based seismic monitoring system using Arduino sensors with real-time database logging. Monitors ground movement, sends alerts, and maintains historical data for analysis and early warning capabilities.</p>
-                <div class="tech-tags">
-                    <span class="tech-tag">Arduino</span>
-                    <span class="tech-tag">IoT</span>
-                    <span class="tech-tag">Real-time DB</span>
-                    <span class="tech-tag">Sensors</span>
-                    <span class="tech-tag">C#</span>
-                </div>
-            </div>
-
-            <div class="project-card">
-                <h3>Real-Time Weather Extractor</h3>
-                <p>Live weather data extraction and visualization system. Pulls data from weather APIs, processes meteorological information, and displays current conditions with forecasting capabilities and historical trends.</p>
-                <div class="tech-tags">
-                    <span class="tech-tag">API Integration</span>
-                    <span class="tech-tag">Real-time Data</span>
-                    <span class="tech-tag">JavaScript</span>
-                    <span class="tech-tag">Visualization</span>
-                </div>
-            </div>
-
-            <div class="project-card">
-                <h3>Landing Pages & Websites</h3>
-                <p>Modern, responsive landing pages and full websites with engaging UI/UX. Optimized for performance, SEO-friendly, and built with latest web standards for maximum conversion and user engagement.</p>
-                <div class="tech-tags">
-                    <span class="tech-tag">HTML/CSS</span>
-                    <span class="tech-tag">JavaScript</span>
-                    <span class="tech-tag">Responsive</span>
-                    <span class="tech-tag">Modern UI</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section" id="skills">
-        <h2 class="section-title">Technical Skills</h2>
-        <p class="section-subtitle">Full-stack expertise across web, database, and hardware systems</p>
-        
-        <div class="skills-container">
-            <div class="skill-category">
-                <h3><span class="skill-icon">💻</span> Frontend Development</h3>
-                <ul class="skill-list">
-                    <li>HTML, CSS, JavaScript</li>
-                    <li>Responsive Web Design</li>
-                    <li>Modern UI/UX Implementation</li>
-                    <li>Landing Page Development</li>
-                </ul>
-            </div>
-
-            <div class="skill-category">
-                <h3><span class="skill-icon">⚙️</span> Backend & Systems</h3>
-                <ul class="skill-list">
-                    <li>PHP</li>
-                    <li>RESTful API Development</li>
-                    <li>Real-time Data Processing</li>
-                    <li>System Architecture</li>
-                </ul>
-            </div>
-
-            <div class="skill-category">
-                <h3><span class="skill-icon">🗄️</span> Database Management</h3>
-                <ul class="skill-list">
-                    <li>MySQL / PostgreSQL</li>
-                    <li>Database Design & Optimization</li>
-                    <li>Data Migration & Integration</li>
-                    <li>Query Optimization</li>
-                </ul>
-            </div>
-
-            <div class="skill-category">
-                <h3><span class="skill-icon">🔧</span> IoT & Hardware</h3>
-                <ul class="skill-list">
-                    <li>Arduino Programming</li>
-                    <li>Sensor Integration</li>
-                    <li>Hardware-Software Communication</li>
-                    <li>Real-time Monitoring Systems</li>
-                </ul>
-            </div>
-
-            <div class="skill-category">
-                <h3><span class="skill-icon">🚀</span> Additional Skills</h3>
-                <ul class="skill-list">
-                    <li>API Integration & Development</li>
-                    <li>Version Control (GitHub)</li>
-                    <li>Web Performance Optimization</li>
-                    <li>Project Management</li>
-                </ul>
-            </div>
-
-            <div class="skill-category">
-                <h3><span class="skill-icon">🛠️</span> Tools & Technologies</h3>
-                <ul class="skill-list">
-                    <li>VS Code, Arduino IDE</li>
-                    <li>phpMyAdmin</li>
-                    <li>GitHub, Deployment Tools</li>
-                    <li>Chrome DevTools</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <section class="section contact-section" id="contact">
-        <div class="contact-content">
-            <h2 class="section-title">Let's Work Together</h2>
-            <p class="section-subtitle">Have a project in mind? Let's create something amazing together</p>
+        <section class="section" id="projects">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">Real-world solutions combining web development, databases, and hardware integration</p>
             
-            <div class="contact-info">
-                <div class="contact-item">
-                    <div class="contact-icon">📧</div>
-                    <div>
-                        <strong>Email</strong><br>
-                        learsi.gabriel07@gmail.com
+            <div class="projects-grid">
+                <article class="project-card">
+                    <h3>Evaluation System</h3>
+                    <p>Comprehensive evaluation platform with robust database management. Features include real-time data processing, user authentication, reporting dashboards, and automated analytics for streamlined performance tracking.</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">PHP</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                        <span class="tech-tag">Dashboard</span>
+                        <span class="tech-tag">Analytics</span>
+                        <span class="tech-tag">Docker</span>
+                        <span class="tech-tag">Render Hosting</span>
+                        <span class="tech-tag">GitHub</span>
+                        <span class="tech-tag">API</span>
                     </div>
-                </div>
-                <div class="contact-item">
-                    <div class="contact-icon">💻</div>
-                    <div>
-                        <strong>GitHub</strong><br>
-                        https://github.com/GABHUB07
+                </article>
+
+                <article class="project-card">
+                    <h3>Earthquake Detector System</h3>
+                    <p>IoT-based seismic monitoring system using Arduino sensors with real-time database logging. Monitors ground movement, sends alerts, and maintains historical data for analysis and early warning capabilities.</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Arduino</span>
+                        <span class="tech-tag">IoT</span>
+                        <span class="tech-tag">Real-time DB</span>
+                        <span class="tech-tag">Sensors</span>
+                        <span class="tech-tag">C#</span>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <h3>Real-Time Weather Extractor</h3>
+                    <p>Live weather data extraction and visualization system. Pulls data from weather APIs, processes meteorological information, and displays current conditions with forecasting capabilities and historical trends.</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">API Integration</span>
+                        <span class="tech-tag">Real-time Data</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Visualization</span>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <h3>Landing Pages & Websites</h3>
+                    <p>Modern, responsive landing pages and full websites with engaging UI/UX. Optimized for performance, SEO-friendly, and built with latest web standards for maximum conversion and user engagement.</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">HTML/CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Responsive</span>
+                        <span class="tech-tag">Modern UI</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section" id="skills">
+            <h2 class="section-title">Technical Skills</h2>
+            <p class="section-subtitle">Full-stack expertise across web, database, and hardware systems</p>
+            
+            <div class="skills-container">
+                <article class="skill-category">
+                    <h3><span class="skill-icon">💻</span> Frontend Development</h3>
+                    <ul class="skill-list">
+                        <li>HTML, CSS, JavaScript</li>
+                        <li>Responsive Web Design</li>
+                        <li>Modern UI/UX Implementation</li>
+                        <li>Landing Page Development</li>
+                    </ul>
+                </article>
+
+                <article class="skill-category">
+                    <h3><span class="skill-icon">⚙️</span> Backend & Systems</h3>
+                    <ul class="skill-list">
+                        <li>PHP</li>
+                        <li>RESTful API Development</li>
+                        <li>Real-time Data Processing</li>
+                        <li>System Architecture</li>
+                    </ul>
+                </article>
+
+                <article class="skill-category">
+                    <h3><span class="skill-icon">🗄️</span> Database Management</h3>
+                    <ul class="skill-list">
+                        <li>MySQL / PostgreSQL</li>
+                        <li>Database Design & Optimization</li>
+                        <li>Data Migration & Integration</li>
+                        <li>Query Optimization</li>
+                    </ul>
+                </article>
+
+                <article class="skill-category">
+                    <h3><span class="skill-icon">🔧</span> IoT & Hardware</h3>
+                    <ul class="skill-list">
+                        <li>Arduino Programming</li>
+                        <li>Sensor Integration</li>
+                        <li>Hardware-Software Communication</li>
+                        <li>Real-time Monitoring Systems</li>
+                    </ul>
+                </article>
+
+                <article class="skill-category">
+                    <h3><span class="skill-icon">🚀</span> Additional Skills</h3>
+                    <ul class="skill-list">
+                        <li>API Integration & Development</li>
+                        <li>Version Control (GitHub)</li>
+                        <li>Web Performance Optimization</li>
+                        <li>Project Management</li>
+                    </ul>
+                </article>
+
+                <article class="skill-category">
+                    <h3><span class="skill-icon">🛠️</span> Tools & Technologies</h3>
+                    <ul class="skill-list">
+                        <li>VS Code, Arduino IDE</li>
+                        <li>phpMyAdmin</li>
+                        <li>GitHub, Deployment Tools</li>
+                        <li>Chrome DevTools</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section class="section contact-section" id="contact">
+            <div class="contact-content">
+                <h2 class="section-title">Let's Work Together</h2>
+                <p class="section-subtitle">Have a project in mind? Let's create something amazing together</p>
+                
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div>
+                            <strong>Email</strong><br>
+                            <a href="mailto:learsi.gabriel07@gmail.com" style="color: var(--light); text-decoration: none;">learsi.gabriel07@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">💻</div>
+                        <div>
+                            <strong>GitHub</strong><br>
+                            <a href="https://github.com/GABHUB07" target="_blank" rel="noopener noreferrer" style="color: var(--light); text-decoration: none;">github.com/GABHUB07</a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <footer>
         <p>&copy; 2025 Gabriel V. Israel. Built with passion and code.</p>
